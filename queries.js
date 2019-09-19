@@ -22,7 +22,8 @@ var removeCable = function() {
   Listing.find({
     code: 'CABL'
   }, (err, entities) => {
-    if (err) {
+    if (err) 
+	{
       throw err;
     }
     for(let i = 0; i < entities.length; i++)
